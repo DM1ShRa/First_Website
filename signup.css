@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 105px 80px;
+    padding: 20px;
+    font-size: 17px;
+    background-image: url(/Img/back.png);
+}
+
+p,
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(165, 42, 42, 0.809);
+    padding: 15px;
+}
+
+.container {
+    border: 6px solid rgb(135, 173, 206);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.button {
+    text-align: center;
+    padding: 14px;
+    background-color: rgba(248, 213, 11, 0.23);
+}
+
+.submit {
+    width: 100px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgba(34, 244, 30, 0.374);
+}
+
+p {
+    text-align: justify;
+    padding: 17px;
+}

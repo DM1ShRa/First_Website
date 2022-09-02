@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 50px;
+    background-image: url(../Img/galaxy.jpg);
+}
+
+.container {
+    border: 5px solid lightblue;
+    border-radius: 8px;
+}
+
+h1,
+p {
+    color: aliceblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header {
+    padding: 5px;
+    background-color: rgb(17, 124, 143);
+}
+
+main {
+    background-color: rgb(60, 60, 154);
+    padding: 5px 20px 15px 20px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px
+}
+
+input[type="submit"] {
+    text-align: center;
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 12px 20px;
+    border: 3px solid azure;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0, 128, 0, 0.39);
+}
+
+.button {
+    text-align: center;
+}
